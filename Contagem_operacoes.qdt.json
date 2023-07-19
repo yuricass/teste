@@ -1,0 +1,32 @@
+{
+  "templateName": "Contagem_operacoes",
+  "parameters": [],
+  "encoding": [
+    {
+      "format": {
+        "formatString": "",
+        "UseParenthesisForNegativeValues": "",
+        "UseThousandSeparator": ""
+      },
+      "objectType": "measure",
+      "name": "Contagem_operacoes",
+      "expression": "= DISTINCTCOUNT ( RealTimeData[Operation] )",
+      "description": "Type object description here",
+      "folder": "",
+      "hidden": "false"
+    }
+  ],
+  "tags": [],
+  "authors": [
+    "Yuri cassu"
+  ],
+  "instructions": [
+    "use esse modelo de medida"
+  ],
+  "supportURLs": [
+    "Type support URL here"
+  ],
+  "description": "medida teste",
+  "buildVersion": "v1.0.0",
+  "schemaVersion": "https://github.com/PowerBI-tips/DAX-Templates/blob/main/schema/v1.ts"
+}
